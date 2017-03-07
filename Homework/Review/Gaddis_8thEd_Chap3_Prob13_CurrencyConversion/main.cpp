@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Andy Garcia
- * Created on February 26, 2016, 11:54 PM
+ * Created on February 26, 2017, 11:54 PM
  * Purpose: Convert U.S. dollars to various currencies
  */
 
@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
     //Process/Calculations Here
     Euros=Dollars*CNVEu;    //Convert to Euros
     Yen=Dollars*CNVYe;      //Convert to Yen
-    Pounds=Dollars*CNVBP;   //Conver to Pounds        
+    Pounds=Dollars*CNVBP;   //Convert to Pounds        
             
     //Output Located Here
     cout<<fixed<<showpoint<<setprecision(2)<<endl;

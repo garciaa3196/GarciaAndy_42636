@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Andy Garcia
- * Created on October 17, 2016, 7:39 PM
+ * Created on February 28, 2017, 7:39 PM
  * Purpose:  Determine the size of a population after a period of time
  */
 
