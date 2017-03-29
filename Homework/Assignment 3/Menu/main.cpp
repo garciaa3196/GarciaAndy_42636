@@ -108,6 +108,9 @@ void problem2(){
     cin>>east.ThirdQ;
     cout<<"Enter the fourth quarter sales: ";
     cin>>east.FourthQ;
+    if(east.FirstQ<0||east.SecndQ<0||east.ThirdQ<0||east.FourthQ<0){
+        cout<<"Error - Sales can't be negative"<<endl;
+    }
     
     //West division
     cout<<"\nWest Division"<<endl;
@@ -119,6 +122,9 @@ void problem2(){
     cin>>west.ThirdQ;
     cout<<"Enter the fourth quarter sales: ";
     cin>>west.FourthQ;
+    if(west.FirstQ<0||west.SecndQ<0||west.ThirdQ<0||west.FourthQ<0){
+        cout<<"Error - Sales can't be negative"<<endl;
+    }
     
     //North division
     cout<<"\nNorth Division"<<endl;
@@ -130,6 +136,10 @@ void problem2(){
     cin>>north.ThirdQ;
     cout<<"Enter the fourth quarter sales: ";
     cin>>north.FourthQ;
+    //InputValidation
+    if(north.FirstQ<0||north.SecndQ<0||north.ThirdQ<0||north.FourthQ<0){
+        cout<<"Error - Sales can't be negative"<<endl;
+    }
     
     //South division
     cout<<"\nSouth Division"<<endl;
@@ -141,6 +151,9 @@ void problem2(){
     cin>>south.ThirdQ;
     cout<<"Enter the fourth quarter sales: ";
     cin>>south.FourthQ;
+    if(south.FirstQ<0||south.SecndQ<0||south.ThirdQ<0||south.FourthQ<0){
+        cout<<"Error - Sales can't be negative"<<endl;
+    }
     
     //Total Sales
     east.Totsales=east.FirstQ+east.SecndQ+east.ThirdQ+east.FourthQ;
