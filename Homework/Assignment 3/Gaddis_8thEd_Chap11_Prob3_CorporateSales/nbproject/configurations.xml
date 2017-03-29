@@ -4,7 +4,6 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>../Gaddis_8thEd_Chap11_Prob1_MovieData/MovieData.h</itemPath>
       <itemPath>Sales.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -37,12 +36,10 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
       </compileType>
-      <item path="../Gaddis_8thEd_Chap11_Prob1_MovieData/MovieData.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="Sales.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
@@ -60,6 +57,7 @@
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
+          <standard>8</standard>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
@@ -68,11 +66,6 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="../Gaddis_8thEd_Chap11_Prob1_MovieData/MovieData.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
       <item path="Sales.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
